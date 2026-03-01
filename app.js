@@ -1,6 +1,6 @@
 async function getTimezoneData() {
     const requestURL =
-        "/data.json";
+        "data.json";
     const request = new Request(requestURL);
 
     const response = await fetch(request);
